@@ -73,3 +73,99 @@ nav a{
     width: max-content;
     display: block;
 }
+.title_block{
+    font-family: 'Graphik', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    color: #252B42;
+    text-align: center;
+    margin-top: 116px;
+}
+.subtitle_block{
+    font-family: 'Graphik', sans-serif;
+    font-size: 24px;
+    color: #374754;
+    text-align: center;
+    width: 532px;
+    margin: 17px auto 0;
+    display: block;
+}
+.item{
+    width: 255px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.item img{
+    width: 61px;
+    height: 61px;
+}
+.item h3{
+    font-family: 'Graphik', sans-serif;
+    font-size: 20px;
+    color: #252B42;
+    font-weight: 700;
+}
+.item span{
+    font-family: 'Graphik', sans-serif;
+    font-size: 18px;
+    color: #374754;
+    font-weight: 400;
+}
+.features_items{
+    width: 869px;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto 0;
+}
+.preview{
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.video{
+    position: relative;
+    height: 762px;
+    margin-top: 80px;
+}
+.play{
+    position: absolute;
+    z-index: 5;
+    padding: 70px;
+    background: #2091F9;
+    border-radius: 150px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.desktop_text .title_block{
+    text-align: left;
+    width: 335px;
+    margin: 0;
+}
+.desktop_hero .container{
+    width: 1243px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.desktop_text .subtitle_block{
+    text-align: left;
+    width: 532px;
+    margin: 7px 0 0;
+}
+.desktop_text .btn{
+    margin-top: 60px;
+    display: block;
+    width: max-content;
+}
+.desktop{
+    width: 624px;
+    height: 350px;
+}
+.desktop_hero{
+    padding: 226px 0;
+}
