@@ -169,3 +169,53 @@ nav a{
 .desktop_hero{
     padding: 226px 0;
 }
+.light .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.uptitle{
+    font-family: 'Graphik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #252B42;
+}
+.light_text .title_block{
+    letter-spacing: 0.2px;
+    font-size: 48px;
+    margin: 0;
+    width: 324px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.form_title{
+    width: 276px;
+    font-family: 'Graphik',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.form_subtitle{
+    width: 301px;
+    font-family: 'Graphik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #374754;
+}
+.input_text{
+    padding: 19px 39px;
+    width: 273px;
+    height: 54px;
+    background: #F4F4F4;
+    border: 1px solid #E8E8E8;
+    border-radius: 39px;
+
+}
