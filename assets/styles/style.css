@@ -67,6 +67,8 @@ nav a{
     border-radius: 35px;
     color: #fff;
     text-decoration: none;
+    outline: none;
+    border: none;
 }
 .welcome_block .btn{
     margin: 60px auto 0;
@@ -170,6 +172,7 @@ nav a{
     padding: 226px 0;
 }
 .light .container{
+    width: 1243px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -217,5 +220,64 @@ nav a{
     background: #F4F4F4;
     border: 1px solid #E8E8E8;
     border-radius: 39px;
-
+}
+.partners .container .btn{
+    margin: 0 auto;
+    display: block;
+    width: max-content;
+}
+.partners_items{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 1087px;
+    margin: 80px auto;
+    flex-wrap: wrap;
+}
+.partner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 31px 40px;
+    border: 1px solid #D8D8D8;
+    height: 175px;
+}
+.partner_title{
+    font-family: 'Graphik', sans-serif;
+    font-size: 16px;
+    color: #374754;
+}
+.t_img{
+    display: block;
+    margin: 80px auto 0;
+}
+.testimonials .container .subtitle_block{
+    margin: 50px auto;
+    width: 967px;
+}
+.author{
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "img name" "img info";
+    width: max-content;
+}
+.author img{
+    grid-area: img;
+    margin-right: 13px;
+}
+.author_name{
+    font-family: 'Graphik', sans-serif;
+    font-size: 16px;
+    color: #374754;
+}
+.author_info{
+    font-family: 'Graphik', sans-serif;
+    font-size: 15px;
+    color: #252B42;
+}
+.testimonials .container .btn{
+    display: block;
+    margin: 80px auto;
+    width: max-content;
 }
